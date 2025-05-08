@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+article {
+    padding-top: 100px; 
+}
+#home{
+    padding-top: 50px;
+}
+body{
+    color: #fff;
+    background-image:url("src/img/background.jpg");
+    background-attachment: fixed ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 6em;
+    margin: 10px;
+    font-weight: 550;
+}
+h1:first-of-type{
+    color: #B4B4B4;
+}
+h2{
+    text-align: center;
+    margin: auto;
+    font-size: 5em;
+    font-weight: 550;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color:#B4B4B4;
+}
+#dlCV:hover{
+    color: #242424;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul{
+    margin: 0;
+    background-color: #242424;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1em;
+}
+nav>ul>li{
+    letter-spacing: 5px;
+    list-style-type: none;
+}
+#dlCV{
+    background-color: #8F8F8F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 7px;
+    letter-spacing:3px;
+
+}
+#dlCV>p{
+    margin: 10px;
+}
+#dlCV>img{
+    width: 30px;
+    height: 30px;
+}
+#tete{
+    width: 278px;
+    height: 278px;
+    margin: 5em ;
+    border-radius: 100%;
+    border: #000 solid 2px;
+}
+#presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 3em;
+
+}
+hr{
+    width: 75%;
+    margin: auto;
+}
+#home>p{
+    padding: 3em 0;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+aside>a{
+    background-color: #8F8F8F;
+    width: 13em;
+    border-radius: 10px;
+    color: #000 ;
+    text-align: center;
+    font-size:1.5em;
+    height: 3em;
+
+}
+aside>a:hover{
+    color: #ffffff;
+}
+aside>a.active  {
+    color: #ffffff;
+}
+#projets>div{
+    display: flex;
+    justify-content: center;
+    padding: 5em 0;
+}
+#projets>div img{
+    width: 5em;
+    height: 5em;
+}
+#projets>div img:first-child{
+    width: 352px;
+    height: 240px;
+    margin: 1em;
+}
+#projets section>div{
+    display: flex;
+    justify-content: start;
+}
+#projets section>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#projets section>div>div>div{
+    align-self: flex-start;
+}
+#projets section{
+    background-color: #242424;
+    padding: 1em;
+    border-radius: 7px;
+    width: 40%;
+    margin: auto 30vh auto 4em;
+}
+#projets section>h3{
+   margin: auto;
+}
+h3{
+    margin-top: 0em;
+    text-align: center;
+}
+
+#SNAKE_auto{
+    display: none;
+}
+#Site_JO2024{
+    display: none;
+}
+#Edouards_Donjon{
+    display: none;
+}
+#Simulateur_de_physique{
+    display: none;
+}
