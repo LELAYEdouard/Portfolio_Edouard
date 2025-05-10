@@ -8,6 +8,7 @@ article {
 #home{
     padding-top: 50px;
 }
+  
 body{
     color: #fff;
     background-image:url("src/img/background.jpg");
@@ -127,16 +128,30 @@ aside>a.active  {
 #projets>div{
     display: flex;
     justify-content: center;
-    padding: 5em 0;
+    padding: 4em 0;
+    margin-left: 5em;
 }
 #projets>div img{
     width: 5em;
     height: 5em;
 }
 #projets>div img:first-child{
-    width: 352px;
-    height: 240px;
+    height: 20em;
     margin: 1em;
+}
+#SNAKE>div img:first-child{
+    width: 20em;
+}
+video{
+    width: 20em;
+    height: 20em;
+    margin: 1em;
+}
+#Site_JO2024>div img:first-child{
+    width: 32em;
+}
+#Edouards_Donjon>div img:first-child{
+    width: 32em;
 }
 #projets section>div{
     display: flex;
@@ -149,13 +164,18 @@ aside>a.active  {
 }
 #projets section>div>div>div{
     align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #projets section{
-    background-color: #242424;
+    background-color: #606060;
     padding: 1em;
     border-radius: 7px;
-    width: 40%;
+    width: auto;
     margin: auto 30vh auto 4em;
+    color: #000;
+
 }
 #projets section>h3{
    margin: auto;
@@ -176,4 +196,194 @@ h3{
 }
 #Simulateur_de_physique{
     display: none;
+}
+#competences>div{
+    margin: 4em 0 ;
+    display: flex;
+    justify-content: space-evenly;
+}
+#competences section{
+    background-color: #606060;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 17em;
+    height: 30em;
+
+}
+#competences section>div{
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25em;
+    flex-wrap: wrap;
+}
+#competences section>div>div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-self: flex-start;
+    height: 25em;
+}
+#competences section>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-self: flex-start;
+    padding: 1em;
+}
+#competences img{
+    width: 4.5em;
+    height: auto;
+}
+#competences>div>section:nth-of-type(2)>div>img:first-of-type{
+    height: 4.5em;
+    width: auto;
+}
+#competences section>div>img{
+    margin-top: 2em;
+}
+#competences p{
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 1em;
+}
+
+
+#circle,#bar{
+    background-color: #D9D9D9;
+}
+#circle{
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    grid-column: 1;
+    grid-row: 2;    
+    transform: translate(-33%, -25%);
+}
+#bar{
+    width: 3px;
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+#barre{
+    display:grid;
+    justify-content: center;
+    width: 5px;
+}
+#parcours>div{
+    color: #000;
+    display: grid;
+    justify-self: center;
+    margin-top: 2em;
+    
+}
+#parcours a{
+    color: #242424;
+}
+#parcours a:hover{
+    color: #606060;
+}
+#IUT,#J23{
+    display: flex;
+    padding: 0 1em;
+    margin: 1em;
+    background-color: #D9D9D9;
+    border-radius:15px ;
+    width: 33em;
+    height: 229px;
+
+}
+
+#IUT {
+    grid-row: 1;
+    grid-column: 1;
+}
+#J23{
+    grid-row: 2;
+    grid-column: 3;
+}
+#parcours img {
+    width: 15em;
+    height: auto;
+    margin: 1.5em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,form textarea,form button{
+    margin: 1.5em 0;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 15px;
+}
+form input,form textarea{
+    padding: 1em;
+}
+
+form input{
+    height: 4em;
+    width:20em;
+}
+form textarea{
+    height: 25em;
+    width: 40em;
+}
+form button {
+    height: 3em;
+    width: 10em;
+    border: #000 solid 2px;
+}
+form button:hover{
+    background-color: #b3b3b3;
+
+}
+
+footer{
+    background-color: #242424;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    position: absolute;
+    right: 0;
+    left: 0;
+
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+footer img{
+    border-radius: 100%;
+    width: 3em;
+    height: auto;
+}
+footer h3{
+    margin: 1em 0 0 0;
+    font-size: 2em;
+}
+footer div div{
+    display: flex;
+    flex-direction: column;
+    height: 12em;
+    justify-content: space-evenly;
+}
+footer>div:nth-of-type(2)>div{
+    flex-direction: row;
+}
+footer>div:nth-of-type(2)>div a,footer>div:first-of-type>p{
+    margin-top: 2em;
+    padding-right: 1em ;
 }
