@@ -155,7 +155,7 @@ video{
 }
 #projets section>div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 #projets section>div>div{
     display: flex;
@@ -371,7 +371,7 @@ footer div{
     align-items: flex-start;
     justify-content: flex-start;
 }
-footer img{
+footer img:first-of-type{
     border-radius: 100%;
     width: 3em;
     height: auto;
