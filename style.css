@@ -142,7 +142,7 @@ aside>a.active  {
 #SNAKE>div img:first-child{
     width: 20em;
 }
-video{
+#Simulateur_de_physique>div>img,#SNAKE_auto>div>img{
     width: 20em;
     height: 20em;
     margin: 1em;
@@ -292,6 +292,7 @@ h3{
 }
 #parcours a{
     color: #242424;
+    margin-bottom: 1em;
 }
 #parcours a:hover{
     color: #606060;
@@ -303,7 +304,7 @@ h3{
     background-color: #D9D9D9;
     border-radius:15px ;
     width: 33em;
-    height: 229px;
+    height: 235px;
 
 }
 
@@ -372,7 +373,6 @@ footer div{
     justify-content: flex-start;
 }
 footer img:first-of-type{
-    border-radius: 100%;
     width: 3em;
     height: auto;
 }
