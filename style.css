@@ -155,7 +155,7 @@ video{
 }
 #projets section>div{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
 }
 #projets section>div>div{
     display: flex;
@@ -172,7 +172,7 @@ video{
     background-color: #606060;
     padding: 1em;
     border-radius: 7px;
-    width: auto;
+    width: 773px;
     margin: auto 30vh auto 4em;
     color: #000;
 
@@ -276,6 +276,12 @@ h3{
     display:grid;
     justify-content: center;
     width: 5px;
+}
+#parcours{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #parcours>div{
     color: #000;
