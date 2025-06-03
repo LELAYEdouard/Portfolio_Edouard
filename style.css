@@ -8,7 +8,12 @@ article {
 #home{
     padding-top: 50px;
 }
-  
+#apropos{
+    text-align: center;
+    margin: 0.5em auto 0em; 
+    font-size: 3em;
+    font-weight: 550;
+}
 body{
     color: #fff;
     background-image:url("src/img/background.jpg");
@@ -97,7 +102,7 @@ hr{
     margin: auto;
 }
 #home>p{
-    padding: 3em 0;
+    padding: 1.5em 0 0;
     margin: auto;
     width: 50%;
     text-align: center;
@@ -392,4 +397,25 @@ footer>div:nth-of-type(2)>div{
 footer>div:nth-of-type(2)>div a,footer>div:first-of-type>p{
     margin-top: 2em;
     padding-right: 1em ;
+}
+
+#lstcompetences {
+    display: flex;
+}
+
+#lstcompetences>div {
+    background-color: #606060;
+    border-radius: 20px;
+}
+#lstcompetences>div>div {
+    padding: 1em;
+    margin: 2em;
+    text-align: center;
+    background-color: #555555;
+    border-radius: 20px;
+}
+#lstcompetences>div>div>h3 {
+    margin: 0.5em auto 0em; 
+    font-size: 2em;
+    font-weight: 550;
 }
